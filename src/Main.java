@@ -59,18 +59,24 @@ public class Main {
         //task4
         System.out.println("task4");
 
-        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int i = 0; i <= reverseFullName.length/2 ; i++) {
-            int first = i;
-            int last = reverseFullName.length - 1 - i;
+//        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+//        for (int i = 0; i <= reverseFullName.length/2 ; i++) {
+//            int first = i;
+//            int last = reverseFullName.length - 1 - i;
+//
+//            char stock = reverseFullName[first];
+//            reverseFullName[first] = reverseFullName[last];
+//            reverseFullName[last] = stock;
+//        }
+//
+//        System.out.println(reverseFullName);
 
-            char stock = reverseFullName[first];
-            reverseFullName[first] = reverseFullName[last];
-            reverseFullName[last] = stock;
+        char[] reverseFullName1 = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = reverseFullName1.length - 1 ; i >=0 ; i--) {
+            System.out.print(reverseFullName1[i]);
         }
+        System.out.println();
 
-
-        System.out.println(reverseFullName);
 
 
     }
